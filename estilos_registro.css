@@ -1,0 +1,34 @@
+.card {
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 50px; /* Agrega un margen superior para separar el formulario */
+}
+
+.card-header {
+    background-color: #16272C;
+    color: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: #16272C;
+    border-color: #16272C;
+}
+
+.btn-primary:hover {
+    background-color: #16272C;
+    border-color: #16272C;
+}
+
+.text-decoration-none {
+    color: #16272C;
+}
+
+.text-decoration-none:hover {
+    color: #3e7686;
+}

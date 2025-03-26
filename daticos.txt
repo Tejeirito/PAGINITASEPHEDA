@@ -1,0 +1,22 @@
+//CÓDIGOs DE PALETA DE COLORES
+#16272C
+#4D6265
+#8A1715
+#8AABAF
+
+//Fondo grs
+#f0f0f0
+
+//Mecánica
+#6B99C3
+
+//Electrónica
+#E2BE62
+
+//Control
+#df8fc5
+
+//TI
+#AEC670
+
+

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/logo_blanco.png">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilos_registro.css">
+    <title>Registro - SEPHEDA</title>
+</head>   
+
+    <body>
+        <!-- ?Menú de navegación -->
+        <nav class="navbar navbar-expand-md bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo_blanco.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-medium">
+                    SEPHEDA
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto me-5">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Proyecto.html">Proyecto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="iniciarsesion.html">Iniciar Sesión</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- ?Foto inicial -->
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="max-height: 500px; position: relative;">
+                    <img src="img_Nosotros/banner.jpg" class="d-block w-100" alt="Imagen de Nosotros">
+                    <div class="carousel-caption position-absolute">
+                        <h1 class="text-white fw-bold">Turbina Eólica por Helice de Arquimedes</h1>
+                        <p class="text-white fw-cursive">Unete a nuestro equipo</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ?Sección Registro -->
+        <div class="container">
+                <div class="row justify-content-center mt-5">
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h4>Registro</h4>
+                            </div>
+                            <div class="card-body">
+                                <form id="register-form">
+                                    <div class="mb-3">
+                                        <label for="register-firstname" class="form-label">Nombres</label>
+                                        <input type="text" class="form-control" id="register-firstname" aria-describedby="firstnameHelp" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="register-lastname" class="form-label">Apellidos</label>
+                                        <input type="text" class="form-control" id="register-lastname" aria-describedby="lastnameHelp" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="register-phone" class="form-label">Teléfono</label>
+                                        <input type="tel" class="form-control" id="register-phone" aria-describedby="phoneHelp" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="register-email" class="form-label">Correo electrónico</label>
+                                        <input type="email" class="form-control" id="register-email" aria-describedby="emailHelp" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="register-password" class="form-label">Contraseña</label>
+                                        <input type="password" class="form-control" id="register-password" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="register-confirm-password" class="form-label">Confirmar Contraseña</label>
+                                        <input type="password" class="form-control" id="register-confirm-password" required>
+                                    </div>
+                                    <div class="d-grid gap-2 mb-3">
+                                        <button type="submit" class="btn btn-primary">Registrarse</button>
+                                    </div>
+                                    <div class="text-center mt-3">
+                                        <p>¿Ya tienes una cuenta? <a href="iniciarsesion.html" class="text-decoration-none">Iniciar Sesión</a></p>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <!-- ?FOOTER -->
+        <footer>
+            <div class="Footer_final">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="text-white">SEPHEDA</h3>
+                        <p class="text-white">Sepheda surgió en la materia de Diseño Mecatrónico de la Universidad Militar Nueva Granada, 
+                            creado por 11 futuros ingenieros y su profesor, con el objetivo de desarrollar una fuente de energía alternativa para hogares e 
+                            instituciones educativas. </p>
+                    </div>
+                    <div class="col">
+                        <h3 class="text-white">Contacto</h3>
+                        <a href="tel:+573008760259" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white">
+                            <i class="bi bi-whatsapp"></i> 300 876 0259
+                        </a>
+                        <a href="https://www.instagram.com/sepheda_umng?igsh=MXBlMHhoc3dqa2Y4dQ==" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white">
+                            <i class="bi bi-instagram"></i> @sepheda_umng
+                        </a>
+                        <a href="mailto:sepheda.org@gmail.com" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white">
+                            <i class="bi bi-envelope"></i> sepheda.org@gmail.com
+                        </a>
+                        
+                    </div>
+                    <div class="col">
+                        <h3 class="text-white">Ubicación</h3>
+                        <div class="menusiu">
+                            <p class="text-white">Carrera 11 #101 - 80</p>
+                            <p class="text-white">Universidad Militar Nueva Granada</p>
+                            <p class="text-white">Bogotá DC, Colombia</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h3 class="text-white">Menú</h3>
+                        <a href="index.html" class="text-white">Inicio</a>
+                        <a href="Proyecto.html" class="text-white">Proyecto</a>
+                        <a href="Nosotros.html" class="text-white">Nosotros</a>
+                        <a href="iniciarsesion.html" class="text-white">Iniciar Sesión</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-rights text-center">
+                <p class="text-white" style="background-color: #16272C;">&copy; 2025 SEPHEDA - Todos los derechos reservados - Diseñado por Equipo TI</p>
+            </div>
+        </footer>
+    <!-- Incluye los enlaces a los archivos JavaScript de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script> <!-- Enlaza tu archivo JavaScript personalizado -->
+</body>
+</html>

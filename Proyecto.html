@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <link rel="icon" type="image/png" href="images/logo_blanco.png">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilos_proyecto.css">
+    <link rel="stylesheet" href="estilos_nostros.css">
+    <script type='text/javascript' src='https://www.x3dom.org/download/dev/x3dom.js'></script>
+    <link rel='stylesheet' type='text/css' href='https://www.x3dom.org/download/dev/x3dom.css'>
+
+    <title>Proyecto - SEPHEDA</title>
+</head>
+<body>
+
+    <!-- ?Menú de navegación -->
+    <nav class="navbar navbar-expand-md bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo_blanco.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-medium">
+                SEPHEDA
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto me-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Proyecto.html">Proyecto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="iniciarsesion.html">Iniciar Sesión</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ?Galería de Imágenes -->
+    <section class="galeria">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="max-height: 700px;" data-bs-interval="9000">
+                    <img src="img_proyecto/Galeria_1.png" class="d-block w-100" alt="LIAM F1 IMAGEN 1">
+                </div>
+                <div class="carousel-item" style="max-height: 700px;" data-bs-interval="9000">
+                    <img src="img_proyecto/Galeria_2.png" class="d-block w-100" alt="LIAM F1 IMAGEN 2">
+                </div>
+                <div class="carousel-item" style="max-height: 700px;" data-bs-interval="9000">
+                    <img src="img_proyecto/Galeria_3.png" class="d-block w-100" alt="LIAM F1 IMAGEN 3">
+                </div>
+                <div class="carousel-item" style="max-height: 700px;" data-bs-interval="9000">
+                    <img src="img_proyecto/Galeria_4.png" class="d-block w-100" alt="LIAM F1 IMAGEN 3">
+                </div>
+                <div class="carousel-item" style="max-height: 700px;" data-bs-interval="9000">
+                    <img src="img_proyecto/Galeria_5.png" class="d-block w-100" alt="LIAM F1 IMAGEN 3">
+                </div>
+                <div class="carousel-item" style="max-height: 700px;" data-bs-interval="9000">
+                    <img src="img_proyecto/Galeria_6.png" class="d-block w-100" alt="LIAM F1 IMAGEN 3">
+                </div>
+                <div class="carousel-item" style="max-height: 700px;" data-bs-interval="9000">
+                    <img src="img_proyecto/Galeria_7.png" class="d-block w-100" alt="LIAM F1 IMAGEN 3">
+                </div>
+                <div class="carousel-item" style="max-height: 700px;" data-bs-interval="9000">
+                    <img src="img_proyecto/Galeria_8.png" class="d-block w-100" alt="LIAM F1 IMAGEN 3">
+                </div>
+                <div class="carousel-item" style="max-height: 700px;" data-bs-interval="9000">
+                    <img src="img_proyecto/Galeria_9.png" class="d-block w-100" alt="LIAM F1 IMAGEN 3">
+                </div>
+                <div class="carousel-item" style="max-height: 700px;" data-bs-interval="9000">
+                    <img src="img_proyecto/Galeria_10.png" class="d-block w-100" alt="LIAM F1 IMAGEN 3">
+                </div>
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+                <h1>Galería de Imágenes</h1>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- ?LOGOS DE COSITOS SIU -->
+    <section class="logos-equipos">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3">
+                    <i class="bi bi-building-fill-check"></i>
+                    <p>Organización</p>
+                </div>
+                <div class="col-md-3">
+                    <i class="bi bi-send-check-fill"></i>
+                    <p>Planos Mecánicos y Eléctricos</p>
+                </div>
+                <div class="col-md-3">
+                    <i class="bi bi-card-checklist"></i>
+                    <p>Características Técnicas</p>
+                </div>
+                <div class="col-md-3">
+                    <i class="bi bi-bar-chart-line-fill"></i>
+                    <p>Progreso</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ?INTERACTURA CON LA TURBINA 3D -->
+    <section class="cad">
+        <div class="container mt-5">
+            <h2 class="text-center mb-4">Interactúa con nuestra Turbina</h2>
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div class="x3d-container">
+                        <x3d style="width: 100%; height: 500px;">
+                            <scene>
+                                <Background skyColor="0.772 0.886 0.965"></Background>
+                                <Viewpoint position="0 0 2" orientation="0 1 0 0"></Viewpoint>
+                                <Transform translation="0.65 0 0">
+                                    <Inline url="img_proyecto\ensamble.x3d"></Inline>
+                                </Transform>
+                            </scene>
+                        </x3d>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <p>Esta innovadora turbina eólica, diseñada en SolidWorks, combina la eficiencia de un diseño moderno con los principios clásicos de la hélice de Arquímedes. 
+                        Su estructura optimizada permite una captación eficaz del viento, transformándolo en energía renovable de forma sostenible. A continuación, podrás interactuar 
+                        con el modelo 3D del CAD, explorando en detalle sus características y funcionalidad, lo que te permitirá comprender mejor cómo esta solución energética avanzada
+                         trabaja en la práctica.</p>
+                </div>
+                <p class="text-center" style="color: #6B99C3;">¡Si tienes un dispositivo Android puedes interactuar con gafas VR!</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- ?MDIAGRAMA DE METODOLOGÍA -->
+    <section class="metodologia">
+        <div class="container mt-5">
+            <h2 class="text-center mb-4">Diagrama de Metodología</h2>
+            <p>Este diagrama metodológico representa un proceso integral para el desarrollo de una turbina eólica de alta eficiencia. 
+                Abarca desde el análisis y diseño inicial hasta la implementación tecnológica, integración, pruebas y optimización final. 
+                Nuestro enfoque sistemático ofrece una solución energética renovable y sostenible, combinando innovación en modelado CAD, 
+                simulaciones aerodinámicas, fabricación de prototipos y un sistema de control avanzado. Nuestro equipo multidisciplinario está 
+                listo para guiarlo a través de cada etapa, asegurando un producto final confiable y eficiente.</p>
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-12 d-flex justify-content-center">
+                    <iframe src="img_proyecto/METODOLOGIA_DISEÑO.pdf" width="70%" height="600px">
+                        Este navegador no soporta PDFs. 
+                        <a href="img_proyecto/METODOLOGIA_DISEÑO.pdf">Descargar el PDF</a>.
+                    </iframe>
+                   
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ?PLANOS MECÁNICOS Y ELÉCTRICOS -->
+    <section class="planos">
+        <div class="container mt-5">
+            <h2 class="text-center mb-4">Planos Mecánicos y Eléctricos</h2>
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Primer Item -->
+                    <div class="carousel-item active">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-6 d-flex justify-content-center">
+                                <img src="img_proyecto/Galeria_1.png" alt="hola" class="img-fluid w-150">
+                            </div>
+                            <div class="col-md-6 d-flex justify-content-center flex-column">
+                                <h5 style="color: #6B99C3;"><i class="bi bi-tools"></i> Tres hélices</h5> 
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique eos culpa ipsam voluptatibus repellat quaerat aliquid reprehenderit, totam ex, consequuntur cum officiis optio odit possimus earum eaque id excepturi suscipit?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Segundo Item -->
+                    <div class="carousel-item">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-6 d-flex justify-content-center">
+                                <img src="img_proyecto/Galeria_2.png" alt="turbina2" class="img-fluid w-100">
+                            </div>
+                            <div class="col-md-6 d-flex justify-content-center flex-column"> 
+                                <h5 style="color: #E2BE62;"> <i class="bi bi-cpu-fill"></i> Almacenamiento de Energía</h5> 
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste et exercitationem minus! Excepturi veniam accusamus vel dolor in, at ratione sed, omnis perferendis vero culpa ullam ad, sint deleniti aliquam.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tercer Item -->
+                    <div class="carousel-item">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-6 d-flex justify-content-center">
+                                <img src="img_proyecto/Galeria_3.png" alt="turbina3" class="img-fluid w-100">
+                            </div>
+                            <div class="col-md-6 d-flex justify-content-center flex-column"> 
+                                <h5 style="color: #6B99C3;"><i class="bi bi-tools"></i> Base</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus minima, culpa, quae iusto assumenda ipsam error nulla adipisci qui sint deserunt corporis tempore! Quis perferendis incidunt autem quisquam dolore.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Cuarto Item -->
+                    <div class="carousel-item">
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-md-6 d-flex justify-content-center">
+                                <img src="img_proyecto/galeria_1.png" alt="turbina3" class="img-fluid w-100">
+                            </div>
+                            <div class="col-md-6 d-flex justify-content-center flex-column">
+                                <h5 style="color: #E2BE62;"><i class="bi bi-cpu-fill"></i> Sensórica Integrada</h5>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam delectus minima, culpa, quae iusto assumenda ipsam error nulla adipisci qui sint deserunt corporis tempore! Quis perferendis incidunt autem quisquam dolore.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Controles del Carrusel -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- ?Características Técnicas -->
+    <section class="ctecnicas">
+        <div class="container mt-5">
+            <h2 class="text-center mb-4">Características Técnicas</h2>
+            <!-- !Características Mecánica-->
+            <div class="row d-flex justify-content-center cmecanica" id="cmecanica">
+                <div class="col-md-6 d-flex justify-content-center">
+                    <img src="img_proyecto/cmecanica.jpeg" alt="Características Mecánica" class="img-fluid img-tecnica">
+                </div>
+                
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div class="d-flex flex-column align-items-center text-center" style="margin-top: 5px;">
+                        <h3><i class="bi bi-tools"></i> Diseño Aerodinámico Optimizado</h3>
+                        <p>La turbina emplea una hélice en espiral de Arquímedes, mejorando la captación del viento a bajas velocidades. Su diseño aerodinámico reduce 
+                            la resistencia al aire, aumentando la eficiencia y optimizando la distribución de las fuerzas de sustentación para una mayor producción de energía.</p>
+                        <ul class="list-unstyled">
+                            <li><strong>Material de las aspas:</strong> Acero galvanizado, resistente a la corrosión.</li>
+                            <li><strong>Diámetro de la hélice:</strong> 1 metro, optimizado para eficiencia.</li>
+                            <li><strong>Ángulo de incidencia:</strong> 60°, para máxima eficiencia aerodinámica.</li>
+                            <li><strong>Eficiencia:</strong> 40%, en conversión de energía eólica.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+
+            <!-- !Características Eléctrónica -->
+            <div class="row d-flex justify-content-center celectronica" id="celectronica">               
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div class="d-flex flex-column align-items-center text-center" style="margin-top: 15px;">
+                        <h3><i class="bi bi-tools"></i> Conversión Y Almacenamiento de Energía</h3>
+                        <p>El sistema convierte la energía eólica en electricidad, almacenándola en una batería de litio para cargar dispositivos como celulares, computadoras 
+                            y patinetas eléctricas. Con un inversor que convierte la energía en corriente alterna, ofrece una solución eficiente y autónoma, ideal para zonas
+                             sin acceso a la red eléctrica.</p>
+                        <ul class="list-unstyled">
+                            <li><strong>Generador Trifásico de 200W:</strong> Generación eficiente con imanes permanentes.</li>
+                            <li><strong>Batería de litio 48V 20Ah:</strong> Capacidad de almacenamiento para uso continuo.</li>
+                            <li><strong>Controlador MPPT:</strong> Optimiza la carga de la batería.</li>
+                            <li><strong>Inversor 120V AC:</strong> Energía estable para dispositivos eléctricos.</li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <img src="img_proyecto/cmecanica.jpeg" alt="Características Mecánica" class="img-fluid img-tecnica">
+                </div>
+            </div>
+
+            <!-- !Características Control -->
+            <div class="row d-flex justify-content-center ccontrol" id="ccontrol">
+                <div class="col-md-6 d-flex justify-content-center">
+                    <img src="img_proyecto/cmecanica.jpeg" alt="Características Mecánica" class="img-fluid img-tecnica">
+                </div>
+                
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div class="d-flex flex-column align-items-center text-center" style="margin-top: 5px;">
+                        <h3><i class="bi bi-tools"></i> Sistema De Frenado Automático</h3>
+                        <p>El sistema de control ON/OFF permite accionar el freno electromagnético de forma eficiente. Este control asegura que el freno se active o desactive según sea
+                             necesario, garantizando una operación segura y confiable del sistema. Ideal para situaciones de paro o mantenimiento, el freno responde rápidamente a la señal 
+                             de control, brindando un funcionamiento seguro.</p>
+                        <ul class="list-unstyled">
+                            <li><strong>Freno Electromagnético:</strong> Detiene el sistema de manera segura en situaciones de paro o mantenimiento.</li>
+                            <li><strong>Control ON/OFF:</strong> Accionamiento simple y efectivo del freno electromagnético.</li>
+                            <li><strong>Respuesta Rápida:</strong> Activación instantánea del freno al recibir la señal de control.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- !Características TI -->
+            <div class="row d-flex justify-content-center cti" id="cti">               
+                <div class="col-md-6 d-flex justify-content-center">
+                    <div class="d-flex flex-column align-items-center text-center" style="margin-top: 15px;">
+                        <h3><i class="bi bi-tools"></i> Monitoreo Remoto En Tiempo Real</h3>
+                        <p>Los datos clave como la velocidad del viento, el voltaje, la corriente y la velocidad angular del generador se transmiten en tiempo real y son enviados
+                           a la nube utilizando Firebase. Esto permite un monitoreo remoto continuo y facilita la supervisión del sistema a través de una Raspberry Pi 4B.</p>
+                        <ul class="list-unstyled">
+                            <li><strong>Raspberry Pi 4B:</strong> Plataforma para el procesamiento y transmisión de datos.</li>
+                            <li><strong>Anemómetro:</strong> Medición en tiempo real de la velocidad del viento.</li>
+                            <li><strong>Sensor de Voltaje y Corriente:</strong> Monitoreo continuo de las variables eléctricas.</li>
+                            <li><strong>Firebase:</strong> Plataforma en la nube para almacenar y acceder a los datos en tiempo real.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center">
+                    <img src="img_proyecto/cmecanica.jpeg" alt="Características Mecánica" class="img-fluid img-tecnica">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+    
+
+    <!-- ?FOOTER -->
+    <footer>
+        <div class="Footer_final">
+            <div class="row">
+                <div class="col">
+                    <h3 class="text-white">SEPHEDA</h3>
+                    <p class="text-white">Sepheda surgió en la materia de Diseño Mecatrónico de la Universidad Militar Nueva Granada, 
+                        creado por 11 futuros ingenieros y su profesor, con el objetivo de desarrollar una fuente de energía alternativa para hogares e 
+                        instituciones educativas. </p>
+                </div>
+                <div class="col">
+                    <h3 class="text-white">Contacto</h3>
+                    <a href="tel:+573008760259" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white">
+                        <i class="bi bi-whatsapp"></i> 300 876 0259
+                    </a>
+                    <a href="https://www.instagram.com/sepheda_umng?igsh=MXBlMHhoc3dqa2Y4dQ==" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white">
+                        <i class="bi bi-instagram"></i> @sepheda_umng
+                    </a>
+                    <a href="mailto:sepheda.org@gmail.com" target="_blank" rel="noopener noreferrer" class="text-decoration-none text-white">
+                        <i class="bi bi-envelope"></i> sepheda.org@gmail.com
+                    </a>
+                    
+                </div>
+                <div class="col">
+                    <h3 class="text-white">Ubicación</h3>
+                    <div class="menusiu">
+                        <p class="text-white">Carrera 11 #101 - 80</p>
+                        <p class="text-white">Universidad Militar Nueva Granada</p>
+                        <p class="text-white">Bogotá DC, Colombia</p>
+                    </div>
+                </div>
+                 <div class="col">
+                    <h3 class="text-white">Menú</h3>
+                    <a href="index.html" class="text-white">Inicio</a>
+                    <a href="Proyecto.html" class="text-white">Proyecto</a>
+                    <a href="Nosotros.html" class="text-white">Nosotros</a>
+                    <a href="iniciarsesion.html" class="text-white">Iniciar Sesión</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-rights text-center">
+            <p class="text-white" style="background-color: #16272C;">&copy; 2025 SEPHEDA - Todos los derechos reservados - Diseñado por Equipo TI</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

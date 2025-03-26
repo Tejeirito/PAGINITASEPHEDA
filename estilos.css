@@ -1,0 +1,250 @@
+/* ?BARRA DE NAVEGACIÓN SIU ---------------------------------------------------------------------------------------------------------------*/
+.navbar-nav .nav-link {
+    color: linear-gradient(to right, #16272C, #39484d, #374447);
+    padding: 10px 15px;
+    border-radius: 5px; 
+    transition: all 0.3s ease-in-out;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que el menú esté encima de otros elementos */
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #e7e7e7;
+    color: #16272C !important;
+}
+
+/*?Carrusel de imágenes SIU---------------------------------------------------------------------------------------------------------------------*/
+.carousel-item img {
+    filter: brightness(50%);  
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+    color: white !important;
+}
+
+.carousel-item {
+    transition: transform 1s ease-in-out; 
+}
+
+/*?TARJETAS 1 SIU --------------------------------------------------------------------------------------------------------------------------------*/
+.profile-area {
+    margin-top: 0px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.profile-area .card {
+    position: relative;
+    max-width: 280px;                
+    max-height: 300px;
+    padding: 50px 20px 30px;     /* Espaciado interno de la tarjeta */
+    margin-top: 60px;
+    border: 1px solid #ddd;
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;  /* Añade una transición suave */
+}
+
+.profile-area .card:hover {
+    transform: scale(1.05);  
+}
+
+/*ICONITO */
+.profile-area .icon-container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    background-color: #8AABAF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.5rem;
+    z-index: 1;
+}
+
+.profile-area .card:hover .icon-container {
+    color: #4D6265;
+}
+
+.profile-area .card .h2 {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    color: #16272C;
+}
+
+.profile-area .card:hover .p {
+    color: #16272C;
+}
+
+
+.profile-area .card p {
+    font-size: 1rem;
+    margin-top: 30px;
+    color: #777;
+    line-height: 1.5;
+}
+
+
+/* ?SECCION TURBINA POR HÉLICE DE ARQUIMEDES SIU ------------------------------------------------------------------------*/
+.custom-section {
+    background-color: #f0f0f0; 
+    padding: 80px 0; /* Espaciado superior e inferior */
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+  }
+.custom-section .row{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+  
+.custom-section .container {
+    max-width: 1200px; /* Ajusta el ancho del contenedor */
+    margin: 0 auto; /* Centra el contenedor */
+  }
+  
+.custom-section h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #4D6265;
+  }
+  
+.custom-section p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-top: 40px;
+    padding: 0px 30px;
+  }
+  
+.custom-section:hover p{
+    color: #16272C;
+  }
+.custom-section .carousel-inner img {
+    width: 100%; 
+    height: auto;
+    filter: brightness(90%);
+  }
+  
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000; /* Iconos del carrusel en color negro */
+  }
+
+
+
+/* ?SECCIÓN CARACTERÍSTICAS TÉCNICAS ------------------------------------------------------------------------------------------------*/
+.caracteristicas .tech-card {
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 0;
+    transition: transform 0.3s ease;
+    min-height: 500px;
+    text-align: center;
+    margin: 30px 8px;
+}
+
+.caracteristicas .tech-card img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: auto;              
+    height: 30%;            
+    object-fit: cover;        
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+
+.caracteristicas h2{
+    color: #16272C;
+    margin-top: 90px;
+}
+.caracteristicas p{
+    padding-top: 10px;
+    height: 180px;
+}
+
+
+.caracteristicas .tech-card:hover h5{
+    color: #8A1715;   
+}
+
+.tech-card .btn {
+    margin-bottom: 15px;
+    border-color: #8A1715;
+    color: #8A1715;
+}
+
+.caracteristicas .col-md-3 .card:hover {
+    transform: scale(1.05);  
+}
+
+
+.tech-card .btn:hover {
+    color: white    ;
+    background-color: #8A1715;
+    transform: scale(1.05); 
+}
+
+/* ?FOOTER SIU -------------------------------------------------------------------------------------------*/
+footer .col a {
+    display: block; 
+    color: #8AABAF;
+    margin-bottom: 10px;
+    padding-left: 25px; 
+}
+footer a:hover {
+    color: #8AABAF !important;
+}
+
+footer .col .text-white{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+footer i.bi {
+    font-size: 15px;
+    color: wheat;
+}
+footer .col a i.bi + text {
+    display: inline-block;
+}
+
+footer .Footer_final{
+    background-color:#16272C;
+    padding: 20px 20px 20px 20px;
+}
+
+
+
+
+
+
+#cmecanica,
+#celectronica,
+#ccontrol,
+#cti {
+    scroll-margin-top: 200px;
+}
+
+

@@ -1,0 +1,326 @@
+/* !Estilos de la página Proyecto */
+
+/* ?Sección Nosotros Carrusel ----------------------------------------------------------------------*/
+.carousel-caption {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px !important;
+    text-align: center;
+    width: 100%;
+}
+
+.carousel-item img {
+    filter: brightness(30%) !important;  
+}
+
+/* ?Sección nuestro equipo----------------------------------------------------------------------------- */
+.nuestro-equipo {
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    padding-bottom: 50px;
+
+}
+
+.nuestro-equipo .container {
+    max-width: 1200px;
+    margin-top: 50px !important;
+}
+
+.nuestro-equipo .row {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.nuestro-equipo h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #4D6265;
+}
+
+.nuestro-equipo p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-top: 40px;
+    text-align: justify;
+    padding: 0px 50px;
+}
+
+.nuestro-equipo:hover p {
+    color: #16272C;
+}
+
+.nuestro-equipo img {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    filter: brightness(90%);
+    margin-left: 30px;
+    transition: transform 0.3s ease; 
+}
+.nuestro-equipo .col-md-6:hover img {
+    transform: scale(1.05);
+}
+
+/* ?LGOTIPOS Equipos SEPHEDA-------------------------------------------------------- */
+
+
+.logos-equipos .container-fluid { 
+    background-color: #f0f0f0;
+    align-items: center;
+    margin: 0px !important;
+    padding-left: 0px; 
+    padding-right: 0px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.logos-equipos .row {
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    margin-left: 0;
+    margin-right: 0;
+    transition: transform 0.3s ease; 
+}
+
+.logos-equipos .col-md-3 {
+    border-left: 0.5px solid #cecece;
+    border-right:0.5px solid #cecece;
+    padding: 10px;
+    transition: transform 0.3s ease;
+    position: relative;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.logos-equipos .col-md-3 p {
+    margin-bottom: 0; 
+    padding: 0; 
+}
+.logos-equipos .col-md-3 i { 
+    font-size: 25px; 
+    margin-bottom: 5px; 
+}
+
+.logos-equipos .col-md-3:hover {
+    transform: scale(1.08); 
+    z-index: 10; 
+}
+/**Mecánica */
+.logos-equipos .col-md-3:nth-child(1):hover {
+    background-color: #6B99C3
+}
+
+/**Electrónica */
+.logos-equipos .col-md-3:nth-child(2):hover {
+    background-color: #E2BE62
+}
+
+/**Control */
+.logos-equipos .col-md-3:nth-child(3):hover {
+    background-color: #df8fc5
+}
+
+/**TI */
+.logos-equipos .col-md-3:nth-child(4):hover {
+    background-color: #AEC670
+}
+
+.logos-equipos .col-md-3 {
+    transform: scale(1); 
+    z-index: 1; 
+    transition: transform 0.3s ease; 
+}
+
+
+/* ?TARJETAS PERSONAS-------------------------------------------------------- */
+
+.tarjetas-personas .row{
+    padding: 20px 10px;
+    align-items: center !important;
+    
+}
+
+.tarjetas-personas .card-persona{
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    margin: 50px 30px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease;
+    height: 300px;
+    max-width: 310px;
+    min-width: 280px;
+}
+
+.tarjetas-personas .card-persona img{
+    border-radius: 15px;
+    width: 50%; /* Controla el tamaño relativo */
+    aspect-ratio: 1 / 1; /* Hace que la imagen sea cuadrada */
+    object-fit: cover;
+}
+
+.tarjetas-personas .card-persona h5{
+    padding: 20px 40px;
+    color: #4D6265;
+    font-size: 1.3em;
+}
+
+.tarjetas-personas .card-persona:hover h5{
+    color: #16272C
+}
+
+
+/* *PERSONAS MECÁNICA */
+.personas-mecanica{
+    background-color: #f0f0f0;
+}
+
+.tarjetas-personas .personas-mecanica .card-persona p{
+    text-align: center;
+    margin: 0px 10px;
+    padding: 1px;
+    background-color: #6B99C3;
+    width: 37%;
+    border-radius: 10px;
+    font-size: 0.9em;
+}
+
+.tarjetas-personas .personas-mecanica:hover h3{
+    color: #6B99C3;
+}
+
+.tarjetas-personas .personas-mecanica:hover .card-persona{
+    transform: scale(1.05);
+}
+/* *PERSONAS ELECTRÓNICA */
+
+.tarjetas-personas .misionvision .card-persona p{
+    text-align: center;
+    margin: 0px 1px;
+    padding: 1px;
+    background-color: #E2BE62;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 0.9em;
+}
+
+.tarjetas-personas .misionvision:hover h3{
+    color: #E2BE62;
+}
+.tarjetas-personas .misionvision:hover .card-persona{
+    transform: scale(1.25);
+}
+/* *PERSONAS Control */
+.caracteristec{
+    background-color: #f0f0f0;
+}
+
+.tarjetas-personas .caracteristec .card-persona p{
+    text-align: center;
+    margin: 0px 10px;
+    padding: 1px;
+    background-color: #df8fc5;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 0.9em;
+}
+
+.tarjetas-personas .caracteristec:hover h3{
+    color: #df8fc5;
+}
+
+.tarjetas-personas .caracteristec:hover .card-persona{
+    transform: scale(5);
+}
+/* *PERSONAS TI */
+.tarjetas-personas .personas-TI .card-persona{
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease;
+    max-width: 310px;
+    min-width: 280px;
+}
+.tarjetas-personas .personas-TI .card-persona p{
+    text-align: center;
+    margin: 0px 10px;
+    padding: 1px;
+    background-color: #AEC670;
+    width: 37%;
+    border-radius: 10px;
+    font-size: 0.9em;
+}
+
+.tarjetas-personas .personas-TI:hover h3{
+    color: #AEC670;
+}
+.tarjetas-personas .personas-TI:hover .card-persona{
+    transform: scale(1.05);
+}
+/* *PERSONAS lideres */
+.personas-lideres{
+    background-color: #f0f0f0;
+}
+.tarjetas-personas .personas-lideres .card-persona{
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease;
+    max-width: 310px;
+    min-width: 280px;
+}
+.tarjetas-personas .personas-lideres .card-persona p{
+    text-align: center;
+    margin: 0px 10px;
+    padding: 1px;
+    background-color: #8AABAF;
+    width: 37%;
+    border-radius: 10px;
+    font-size: 0.9em;
+}
+
+.tarjetas-personas .personas-lideres:hover h3{
+    color: #8AABAF;
+}
+.tarjetas-personas .personas-lideres:hover .card-persona{
+    transform: scale(1.05);
+}
+/*carruseeellllllllll*/
+
+
+    /* Ajuste de imágenes */
+    .carousel-inner img {
+        width: 100%;
+        max-height: 400px; /* Mantiene altura uniforme */
+        object-fit: cover; /* Evita deformaciones */
+        filter: brightness(100%) !important;  
+    }
+    
+
+
+    /* Eliminar cualquier posible fondo oscuro de Bootstrap */
+    .carousel-item {
+        background: none !important;
+    }
+
+    
+    .carousel-imageee {
+        max-height: 100px; /* Ajusta este valor según tus necesidades */
+        object-fit: contain;
+    }
+    
